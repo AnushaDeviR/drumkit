@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <div class="container flex">
+    <div class="box" data-key="65"><h1>A</h1><p>CLAP</p></div>
+    <div class="box" data-key="83"><h1>S</h1><p>HIHAT</p></div>
+    <div class="box" data-key="68"><h1>D</h1><p>KICK</p></div>
+    <div class="box" data-key="70"><h1>F</h1><p>DING</p></div>
+    <div class="box" data-key="71"><h1>G</h1><p>POUR</p></div>
+
+
+    <audio src="./sound/clap.wav" data-key="65"></audio>
+    <audio src="./sound/hihat.mp3" data-key="83"></audio>
+    <audio src="./sound/kick.mp3" data-key="68"></audio>
+    <audio src="./sound/ding.mp3" data-key="70"></audio>
+    <audio src="./sound/pour.mp3" data-key="71"></audio>
+</div>
+<script src="./app.js"></script>
+</body>
+</html> 
